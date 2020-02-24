@@ -1,0 +1,62 @@
+<!-- main bank login
+log in user credentials 
+    -take user login parameters username(do not need password)
+    -transfer user to balance page 
+or
+link to create account(add new user)
+    -take user login parameters 
+    -check if username is already taken?
+    -create new login link to add account page
+
+loginServlet/register(balance)
+   -read/display accounts and view amounts 
+   -link to transaction page
+addaccount.html
+   -take user login, account name, and amount (max 10k add?)
+   -check if account exists, if not create account  
+   -update/write amount to file object
+   -link back to balance page
+transaction.html
+-deposit
+-withdraw
+deleteaccount
+   -take user login, account id
+   -check if account exists, if not error msg  
+   -delete object from file
+   -link back to balance page
+
+history
+   -open log 
+   -read/print log file 
+   -exit log, link to login page
+
+
+-->
+
+<HTML>
+<CENTER>
+
+	<HEAD>
+		<TITLE>BANK LOGIN PAGE</TITLE>
+		<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+		<meta http-equiv="Pragma" content="no-cache" />
+		<meta http-equiv="Expires" content="0" />
+	</HEAD>
+
+	<BODY>
+
+		<CENTER>		
+		<H1><FONT COLOR="red">Bank Homepage</FONT></H1>
+
+		<H2>User login</H2>
+		<form action="LoginServlet" method="get">
+		User:<input type="text" name="user"><br>
+		<input type="submit" value="submit"><br>
+  		<h1><a href="register.html">register</a></h1>
+
+		</CENTER>
+
+	</BODY>
+</HTML>
+
+
