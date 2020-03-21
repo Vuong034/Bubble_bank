@@ -45,6 +45,52 @@ src
 
 
 
+<!-- 
+----page directory---
+main bank login 
+log in user credentials 
+    -take user login parameters username(do not need password)
+    -transfer user to balance page 
+or
+link to create account(add new user)
+    -take user login parameters 
+    -check if username is already taken?
+    -create new login link to add account page
+
+loginServlet/register(balance)
+   -read/display accounts and view amounts 
+   -link to transaction page
+addaccount.html
+   -take user login, account name, and amount (max 10k add?)
+   -check if account exists, if not create account  
+   -update/write amount to file object
+   -link back to balance page
+transaction.html
+-deposit
+-withdraw
+deleteaccount
+   -take user login, account id
+   -check if account exists, if not error msg  
+   -delete object from file
+   -link back to balance page
+
+history
+   -open log 
+   -read/print log file 
+   -exit log, link to login page
+
+
+------
+   <link href="style.css" rel="stylesheet" type="text/css">
+	<script src="script.js">
+	</script>
+
+
+-->
+
+
+
+
 
 
 
