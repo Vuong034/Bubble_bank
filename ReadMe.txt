@@ -1,3 +1,54 @@
+Java Banking Servlet Version 2.0
+
+untested 
+
+Application taerget Requirements
+
+1. frontend
+   All pages:
+      nav bar
+   
+   index.html: 
+      about page/content
+      account usage
+      privacy statement   
+
+
+2. backend
+   user information saved to mysql database
+   user registration
+   user accounts
+   secure login?
+      3rd party?
+      oauth compatibility?
+   encryption?
+
+
+3. Utility
+   update error logs
+      seperate access logs?
+      success and fail?
+
+   analytics
+      crashing
+      slow loading?
+      wrong page 
+   
+4.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Java Banking Servlet Version 1.0
 
 tested on Apache Tomcat 8.5.39
