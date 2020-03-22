@@ -37,11 +37,23 @@ Application taerget Requirements
 4.
 
 
-src
+
+---file directory---
+   resources
+      css
+         main.css   
+      js
+         main.js
+      img
+         bg.jpg
+
    html pages
-
-
-
+   -
+   -
+   -
+   -
+   -
+   -
 
 
 

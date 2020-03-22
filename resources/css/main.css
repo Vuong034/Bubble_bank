@@ -9,12 +9,9 @@ body{
     overflow: hidden;
 }
 
-.wave{
-	position: fixed;
-	top: 0;
-	left: 0;
-	height: 5%;
-  width: 5%
+.center {
+	padding-top: 1rem;
+	text-align: center;
 }
 
 .container{
@@ -177,8 +174,9 @@ form{
 }
 
 a{
+
 	display: block;
-	text-align: right;
+	text-align: relative;
 	text-decoration: none;
 	color: #999;
 	font-size: 0.9rem;
@@ -188,6 +186,7 @@ a{
 a:hover{
 	color:#005b7c;
 }
+
 
 .btn{
 	display: block;
@@ -214,7 +213,7 @@ a:hover{
 
 @media screen and (max-width: 768px){
   .content h1{
-    fontsize: 250%;
+    font-size: 250%;
   }
 
 	.container{
